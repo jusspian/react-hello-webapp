@@ -11,7 +11,7 @@ const ContactCard = ({ contact }) => {
 
   return (
     <div className="contact-card">
-      <img src="https://randomuser.me/api/portraits/men/75.jpg" alt={contact.name} />
+      <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D" alt={contact.name} />
       <div className="contact-info">
         <h3>{contact.name}</h3>
         <p><i className="fas fa-map-marker-alt" /> {contact.address}</p>
