@@ -7,9 +7,10 @@ const ContactList = () => {
   const { contacts } = useContext(ContactContext);
 
   return (
-    <div>
+    
+      <div className="contact-page">
       <h1>Contactos</h1>
-      <Link to="/add" className="add-contact-btn">Agregar Contacto</Link>
+      <div className="add-button"><Link to="/add" className="add-contact-btn">Agregar Contacto</Link></div>
       <div className="contact-list-container"> 
         {contacts.length === 0 ? (
           <p>No hay contactos.</p>

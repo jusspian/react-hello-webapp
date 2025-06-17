@@ -7,7 +7,7 @@ body {
 
 .contact-list-container {
   max-width: 800px;
-  margin: 40px auto;
+  margin: 10px auto;
   background-color: #fff;
   padding: 20px;
   border-radius: 10px;
@@ -16,11 +16,11 @@ body {
 .add-contact-btn {
   background-color: #28a745;
   color: white;
-  padding: 10px 16px;
+  padding: 10px 5px;
   border: none;
   border-radius: 5px;
-  float: right;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  margin-right: 47px;
   cursor: pointer;
   font-size: 16px;
 }
@@ -80,11 +80,11 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* fondo oscuro */
+  background-color: rgba(0, 0, 0, 0.5); 
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 999; /* por encima de todo */
+  z-index: 999;
 }
 
 .modal-content {
@@ -104,11 +104,79 @@ body {
   cursor: pointer;
 }
 
-.modal-content button:first-child {
-  background-color: #d9534f; /* rojo para confirmar */
-  color: white;
+
+.add-contact-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border-radius: 10px;
 }
 
-.modal-content button:last-child {
-  background-color: #ccc; /* gris para cancelar */
+.add-contact-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2em;
+  color: #333;
 }
+
+.add-contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.add-contact-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1em;
+  box-sizing: border-box;
+  transition: border 0.2s;
+}
+
+.add-contact-form button {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  padding: 14px;
+  font-size: 1em;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.back-link {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  color: #007bff;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.add-contact-form button:hover {
+  background-color: #0056b3;
+}
+
+.contact-page h1 {
+text-align: center;
+margin-top: 20px;
+}
+
+.add-button{
+  display: flex;
+  text-align: center;
+  justify-content: flex-end;
+
+}
+
